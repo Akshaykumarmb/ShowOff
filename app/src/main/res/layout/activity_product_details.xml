@@ -7,13 +7,11 @@
     tools:context=".ui.ProductDetails">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/product_detail_images"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:orientation="horizontal"
-        tools:ignore="MissingConstraints">
-
-    </androidx.recyclerview.widget.RecyclerView>
+        tools:ignore="MissingConstraints"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
